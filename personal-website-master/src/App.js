@@ -7,14 +7,10 @@ import { Skills } from './components/Skills';
 import { Projects } from './components/Projects';
 import { Contact } from './components/Contact';
 import { Footer } from './components/Footer';
-import { Route } from 'react-router-dom';
 
 function App() {
   return (
     <div className="App">
-      <Route path="*">
-        <p>Sorry, the page you requested was not found.</p>
-      </Route>
       <NavBar />
       <Banner />
       <Skills />
