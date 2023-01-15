@@ -40,27 +40,55 @@ export const Skills = () => {
               <div className="item">
                 {/* <img src={meter1} alt="Image" /> */}
                 <h5>
-                  Full Stack Developer Integrify
-                  <br></br> | Helsinki, Finland | May 2021 – December 2021
+                  Full Stack Developer | Integrify | Helsinki, Finland | May
+                  2021 – December 2021
+                  <p>
+                    • Taking numerous responsibilities in front-end development
+                    with JavaScript and TypeScript and applied frameworks and
+                    other tools such as React.js and Redux among many others.
+                    <br />• Contributed to the back-end development of various
+                    projects with Node.js and Express.js.
+                  </p>
                 </h5>
                 ----------------------------------------------------------------
               </div>
               <div className="item">
                 {/* <img src={meter2} alt="Image" /> */}
                 <h5>
-                  Full Stack Developer Miragel Oy | Helsinki, Finland | January
-                  2022 – August 2022
+                  Full Stack Developer | Miragel Oy | Helsinki, Finland |
+                  January 2022 – August 2022
+                  <p>
+                    • Developing web version of existing real estate software
+                    using React.js, Redux.js, Typescript, C# and .Net.
+                  </p>
                 </h5>
                 --------------------------------------------------------------------------------------------------------------------------------
               </div>
               <div className="item">
                 {/* <img src={meter3} alt="Image" /> */}
                 <h5>
-                  CTO | Full Stack Developer, Board Member Balticauto Oy |
+                  CTO | Full Stack Developer, Board Member | Balticauto Oy |
                   Turku, Finland | September 2019 – July 2022
+                  <p>
+                    • Responsible for handling day-today operations of the
+                    business. <br />• Developing van rental website using
+                    Wordpress and involved in other projects using MERN
+                    technology stack.
+                  </p>
+                </h5>
+                --------------------------------------------------------------------------------------------------------------------------------
+              </div>
+              <div className="item">
+                {/* <img src={meter3} alt="Image" /> */}
+                <h5>
+                  Enthusiast | Metatrader Programmer | Cryptocurrency & Forex
+                  |Turku, Finland | September 2014 – August 2019
+                  <p>
+                    • Responsible for making Indicators and Expert Advisors to
+                    simplify and automate trading.
+                  </p>
                 </h5>
               </div>
-
               {/* </Carousel> */}
             </div>
           </div>

@@ -23,7 +23,7 @@ export const Projects = () => {
       imgUrl: projImg2,
     },
     {
-      description: 'Database Management: MongoDB, PostgreSQL',
+      description: 'Database Management: MongoDB, Microsoft SQL Server',
       imgUrl: projImg3,
     },
     {
@@ -31,7 +31,7 @@ export const Projects = () => {
       imgUrl: projImg4,
     },
     {
-      description: 'Cloud Services: AWS',
+      description: 'Cloud Services: AWS, Azure',
       imgUrl: projImg5,
     },
     {
