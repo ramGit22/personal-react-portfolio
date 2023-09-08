@@ -1,41 +1,41 @@
-import { Container, Row, Col, Tab, Nav } from 'react-bootstrap';
-import { ProjectCard } from './ProjectCard';
-import projImg1 from '../assets/img/forth project.png';
-import projImg2 from '../assets/img/second work.png';
-import projImg3 from '../assets/img/project1.jpg';
-import projImg4 from '../assets/img/first work.jpg';
-import projImg5 from '../assets/img/fifth work.jpg';
-import projImg6 from '../assets/img/12345.jpg';
-import colorSharp2 from '../assets/img/color-sharp2.png';
-import 'animate.css';
-import TrackVisibility from 'react-on-screen';
+import { Container, Row, Col, Tab, Nav } from "react-bootstrap";
+import { ProjectCard } from "./ProjectCard";
+import projImg1 from "../assets/img/forth project.png";
+import projImg2 from "../assets/img/second work.png";
+import projImg3 from "../assets/img/project1.jpg";
+import projImg4 from "../assets/img/first work.jpg";
+import projImg5 from "../assets/img/fifth work.jpg";
+import projImg6 from "../assets/img/12345.jpg";
+import colorSharp2 from "../assets/img/color-sharp2.png";
+import "animate.css";
+import TrackVisibility from "react-on-screen";
 
 export const Projects = () => {
   const projects = [
     {
       description:
-        'Front-end Development: Accessibility, CSS, HTML, JavaScript',
+        "Front-end Development: Accessibility, CSS, HTML, JavaScript, Typescript, React, Redux",
       imgUrl: projImg1,
     },
     {
       description:
-        'Back-end Development: Express.js, Node.js, Python, REST API, C#,.Net',
+        "Back-end Development: Express.js, Node.js, Python, REST API",
       imgUrl: projImg2,
     },
     {
-      description: 'Database Management: MongoDB, Microsoft SQL Server',
+      description: "Database Management: MongoDB, postgreSQL",
       imgUrl: projImg3,
     },
     {
-      description: 'DevOps: Bash, Docker, GitHub Actions.',
+      description: "DevOps: Bash, Docker, GitHub Actions.",
       imgUrl: projImg4,
     },
     {
-      description: 'Cloud Services: AWS, Azure',
+      description: "Cloud Services: AWS",
       imgUrl: projImg5,
     },
     {
-      description: 'Testing: Jest.',
+      description: "Testing: Jest.",
       imgUrl: projImg6,
     },
   ];

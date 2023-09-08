@@ -1,11 +1,11 @@
-import meter1 from '../assets/img/meter1.svg';
-import meter2 from '../assets/img/meter2.svg';
-import meter3 from '../assets/img/meter3.svg';
-import Carousel from 'react-multi-carousel';
-import 'react-multi-carousel/lib/styles.css';
-import arrow1 from '../assets/img/arrow1.svg';
-import arrow2 from '../assets/img/arrow2.svg';
-import colorSharp from '../assets/img/color-sharp.png';
+import meter1 from "../assets/img/meter1.svg";
+import meter2 from "../assets/img/meter2.svg";
+import meter3 from "../assets/img/meter3.svg";
+import Carousel from "react-multi-carousel";
+import "react-multi-carousel/lib/styles.css";
+import arrow1 from "../assets/img/arrow1.svg";
+import arrow2 from "../assets/img/arrow2.svg";
+import colorSharp from "../assets/img/color-sharp.png";
 
 export const Skills = () => {
   const responsive = {
@@ -43,11 +43,24 @@ export const Skills = () => {
                   Full Stack Developer | Integrify | Helsinki, Finland | May
                   2021 – December 2021
                   <p>
-                    • Taking numerous responsibilities in front-end development
-                    with JavaScript and TypeScript and applied frameworks and
-                    other tools such as React.js and Redux among many others.
-                    <br />• Contributed to the back-end development of various
-                    projects with Node.js and Express.js.
+                    - Architected and developed a full-stack e-commerce
+                    application utilizing the MERN stack (MongoDB, Express.js,
+                    React.js, Node.js), resulting in a seamless, scalable, and
+                    high-performing user experience.
+                    <br />
+                    - Engineered the front-end using React.js, implementing
+                    features such as product search, user authentication, and
+                    real-time updates for an interactive user interface.
+                    <br />
+                    - Leveraged Redux for state management, enhancing the
+                    application's efficiency and maintainability.
+                    <br />
+                    - Developed a RESTful API using Node.js and Express.js,
+                    facilitating functionalities like user authentication, order
+                    management, and payment processing.
+                    <br />- Utilized MongoDB for the database layer,
+                    implementing efficient schemas and queries for fast
+                    retrieval and storage of data.
                   </p>
                 </h5>
                 ----------------------------------------------------------------
@@ -58,8 +71,17 @@ export const Skills = () => {
                   Full Stack Developer | Miragel Oy | Helsinki, Finland |
                   January 2022 – August 2022
                   <p>
-                    • Developing web version of existing real estate software
-                    using React.js, Redux.js, Typescript, C# and .Net.
+                    - Took the initiative in transforming an existing real
+                    estate software solution into a web-based platform,
+                    enhancing accessibility and user engagement.
+                    <br />
+                    - Utilized React.js and Redux.js for front-end development,
+                    implementing a responsive and dynamic user interface that
+                    improved user experience and interaction. <br />
+                    - Employed TypeScript to bring strong typing and improved
+                    maintainability to the front-end codebase, resulting in more
+                    robust and error-free code.
+                    <br />- Conducted regular code reviews and bug fixes.
                   </p>
                 </h5>
                 --------------------------------------------------------------------------------------------------------------------------------
@@ -68,27 +90,26 @@ export const Skills = () => {
                 {/* <img src={meter3} alt="Image" /> */}
                 <h5>
                   CTO | Full Stack Developer, Board Member | Balticauto Oy |
-                  Turku, Finland | September 2019 – July 2022
+                  Turku, Finland | September 2019 – Present
                   <p>
-                    • Responsible for handling day-today operations of the
-                    business. <br />• Developing van rental website using
-                    Wordpress and involved in other projects using MERN
-                    technology stack.
-                  </p>
-                </h5>
-                --------------------------------------------------------------------------------------------------------------------------------
-              </div>
-              <div className="item">
-                {/* <img src={meter3} alt="Image" /> */}
-                <h5>
-                  Enthusiast | Metatrader Programmer | Cryptocurrency & Forex
-                  |Turku, Finland | September 2014 – August 2019
-                  <p>
-                    • Responsible for making Indicators and Expert Advisors to
-                    simplify and automate trading.
+                    - Developed a van renting platform using MERN stack,
+                    TypeScript, and Redux, enabling real-time booking and online
+                    payments. <br />
+                    - Integrated secure payment gateways and developed RESTful
+                    APIs for seamless user experience.
+                    <br />
+                    - Utilized CI/CD pipelines and Agile workflow, managing
+                    tasks and sprints via Jira.
+                    <br />
+                    - Collaborated with UI/UX designers to deliver a robust and
+                    user-friendly application.
+                    <br />- Conducted regular sprint reviews and agile
+                    ceremonies, fostering a culture of continuous improvement
+                    and adaptation to changing business requirements.
                   </p>
                 </h5>
               </div>
+
               {/* </Carousel> */}
             </div>
           </div>
