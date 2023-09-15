@@ -51,6 +51,7 @@
     ]
   },
   "devDependencies": {
-    "@pmmmwh/react-refresh-webpack-plugin": "^0.5.11"
+    "@pmmmwh/react-refresh-webpack-plugin": "^0.5.11",
+    "gatsby-cli": "^5.12.1"
   }
 }
