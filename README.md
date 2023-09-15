@@ -1,5 +1,4 @@
-<<<<<<< HEAD
-=======
+
 ## Personal Portfolio Website
 A personal portfolio website built using Gatsby.js, a React-based static site generator.
 # Please click the link to see in browser [My Portfolio](https://ramesh-portfolio-site.netlify.app)
