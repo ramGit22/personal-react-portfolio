@@ -1,55 +1,55 @@
-import { useState, useEffect } from 'react';
-import { Container, Row, Col } from 'react-bootstrap';
-import { ArrowRightCircle } from 'react-bootstrap-icons';
-import 'animate.css';
-import TrackVisibility from 'react-on-screen';
-import coding from '../assets/img/coding.png';
+import { useState, useEffect } from 'react'
+import { Container, Row, Col } from 'react-bootstrap'
+import { ArrowRightCircle } from 'react-bootstrap-icons'
+import 'animate.css'
+import TrackVisibility from 'react-on-screen'
+import coding from '../assets/img/coding.png'
 
 export const Banner = () => {
-  const [loopNum, setLoopNum] = useState(0);
-  const [isDeleting, setIsDeleting] = useState(false);
-  const [text, setText] = useState('');
-  const [delta, setDelta] = useState(300 - Math.random() * 100);
-  const [index, setIndex] = useState(1);
-  const toRotate = ['Software Engineer', 'Web Developer', 'Team Leder'];
-  const period = 2000;
+  const [loopNum, setLoopNum] = useState(0)
+  const [isDeleting, setIsDeleting] = useState(false)
+  const [text, setText] = useState('')
+  const [delta, setDelta] = useState(300 - Math.random() * 100)
+  const [index, setIndex] = useState(1)
+  const toRotate = ['Software Engineer', 'Web Developer', 'Team Leder']
+  const period = 2000
 
   useEffect(() => {
     let ticker = setInterval(() => {
-      tick();
-    }, delta);
+      tick()
+    }, delta)
 
     return () => {
-      clearInterval(ticker);
-    };
-  }, [text]);
+      clearInterval(ticker)
+    }
+  }, [text])
 
   const tick = () => {
-    let i = loopNum % toRotate.length;
-    let fullText = toRotate[i];
+    let i = loopNum % toRotate.length
+    let fullText = toRotate[i]
     let updatedText = isDeleting
       ? fullText.substring(0, text.length - 1)
-      : fullText.substring(0, text.length + 1);
+      : fullText.substring(0, text.length + 1)
 
-    setText(updatedText);
+    setText(updatedText)
 
     if (isDeleting) {
-      setDelta((prevDelta) => prevDelta / 2);
+      setDelta((prevDelta) => prevDelta / 2)
     }
 
     if (!isDeleting && updatedText === fullText) {
-      setIsDeleting(true);
-      setIndex((prevIndex) => prevIndex - 1);
-      setDelta(period);
+      setIsDeleting(true)
+      setIndex((prevIndex) => prevIndex - 1)
+      setDelta(period)
     } else if (isDeleting && updatedText === '') {
-      setIsDeleting(false);
-      setLoopNum(loopNum + 1);
-      setIndex(1);
-      setDelta(500);
+      setIsDeleting(false)
+      setLoopNum(loopNum + 1)
+      setIndex(1)
+      setDelta(500)
     } else {
-      setIndex((prevIndex) => prevIndex + 1);
+      setIndex((prevIndex) => prevIndex + 1)
     }
-  };
+  }
 
   return (
     <section className="banner" id="home">
@@ -78,7 +78,7 @@ export const Banner = () => {
                     {' '}
                     Software developer who is excited about finding solutions to
                     technical problems by applying creativity along the way.
-                    Always assionate about learning and growing as a
+                    Always passionate about learning and growing as a
                     professional. Hold two technical degrees:Master’s degree in
                     Bioinformatics from the University of Turku and Bachelor’s
                     degree in IT from the Turku University of Applied Sciences.
@@ -106,5 +106,5 @@ export const Banner = () => {
         </Row>
       </Container>
     </section>
-  );
-};
+  )
+}
